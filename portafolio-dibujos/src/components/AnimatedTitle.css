@@ -1,0 +1,17 @@
+.animated-title {
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+    animation: drawText 3s linear forwards;
+  }
+  
+  @keyframes drawText {
+    0% {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+  
